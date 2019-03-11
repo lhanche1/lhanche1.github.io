@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Maggie Cech</title>
+    <!--Linking to the CSS stylesheet-->
+	<link rel="stylesheet" href="style.css" title="external style sheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="icon" href="alien.ico">
+	<style>
+	body {
+		position: relative; 
+	}
+    html{
+        /* Change the background image/color here */
+        /* To just use a solid color, change background to background-color and put in the hex value for the color you want to use */
+	   background: url(photos/pink%20dust.png) no-repeat center center fixed;
+	   -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   -o-background-size: cover;
+	   background-size: cover;
+}
+    /* If you want to use different colors/images in the background for each section, you can change that here */
+    /* move 'background' from the html tag above to each section below. follow the notes above for using colors instead of images */
+	#section1 {padding-top:50px;height:700px;color: #fff;}
+	#section2 {padding-top:50px;height:700px;color: #fff;}
+	#section3 {padding-top:50px;height:700px;color: #fff;}
+	#section4 {padding-top:50px;height:400px;color: #fff;}
+	#section5 {padding-top:50px;height:700px;color: #fff;}
+	</style>
+</head>
+                                        
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div class="container-fluid">
+
+	</div>	
+	
+	<div id="section1" class="container-fluid">
+        <div class="btext">
+            <h1>Your Name</h1>
+            <p>Pursuing BS in Your Major</p>
+            <p>Concentration/Minor in Whatever</p>
+            <p>Binghamton University</p>
+            <!--Buttons to the other sections-->
+            <!--Change the names between the brackets to change the button text-->
+            <a href="#section2" class="btn">Resume</a>
+            <a href="#section3" class="btn">Transcript</a>
+            <a href="projects.html" class="btn">Projects</a>
+            <a href="#section4" class="btn">Contact Me</a>
+            <center><span style="font-size: 35px; color: white; margin-top:100px">
+                <a href="#section2">
+                    <!--Change color:#0099e5 to change the color of the arrow-->
+                    <!--To change the size of the arrow, add a semi colon and 'font-size:30px' or however many pixels (i.e. color:#0093e5;font-size:20px)-->
+                    <i class="fas fa-angle-down" style="color:#fff"></i></a>
+                </span></center>
+        </div>	
+	</div>
+
+    <!--Resume-->
+	<div id="section2" class="container-fluid">
+		<div id="left-div">
+            <!--Resume Heading-->
+			<h2>Resume</h2>
+		</div>
+		<div id="right-div">
+            <!--Change this to link to your resume file-->
+			<a href="files/MCechResume.pdf">
+			<span style="font-size: 48px; color: white; margin-left:10px">
+            <!--Resume icon-->
+            <!--check out 'font awesome' online to find other possible icons to use-->
+			<i class="far fa-file-word" title="Resume"></i></span>
+		</a></div>
+        <!--Resume PDF-->
+        <!--Mess around with width and height to get the size to your liking-->
+        <!--Change the file to the correct one after 'data='-->
+		<object width="75%" height="500" style="margin-top:100px" type="application/pdf" data="files/MCechResume.pdf">
+            <param name="view" value="Fit" />
+            <!--PDF loader doesn't work for certain browsers, this is an error message in case it doesn't-->
+            <p>Oops.. your browser isn't compatible with the PDF viewer. No problem though! Just click the "W" document to view the document in a different tab. </p>
+            </object><br/>
+        
+            <!--Down Arrow-->
+            <center>
+            <!--change size of arrow here-->
+			 <span style="font-size: 35px;">
+				<a href="#section3">
+                <!--Change arrow color here-->
+				<i class="fas fa-angle-down" style="color:#fff"></i></a>
+			</span>
+		</center>
+	</div>
+
+    <!--Transcript-->
+    <!--Basically the same format as the resume section, follow those rules here-->
+	<div id="section3" class="container-fluid">
+		<div id="left-div">
+			<h2>Transcript</h2>
+		</div>
+		<div id="right-div">
+			<a href="files/MCechTranscript.pdf">
+			<span style="font-size: 48px; color: white; margin-left:10px">
+			<i class="far fa-file-word" title="Transcript"></i></span>
+		</a></div>
+        <!--Transcript PDF-->
+		<object width="75%" height="500" style="margin-top:100px" type="application/pdf" data="files/MCechTranscript.pdf">
+            <param name="view" value="Fit" />
+            <p>Oops.. your browser isn't compatible with the PDF viewer. No problem though! Just click the "W" document to view the document in a different tab. </p>
+            </object><br/>
+        
+            <!--Down Arrow-->
+            <center>
+			 <span style="font-size: 35px;">
+				<a href="#section4">
+				<i class="fas fa-angle-down" style="color:#fff"></i></a>
+			</span>
+		</center>
+	</div>
+
+    <!--Contact Links-->
+	<div id="section4" class="container-fluid">
+		<div id="left-div">
+            <!--Contact section heading-->
+			<h2>Contact Me</h2>
+		</div>
+        <!--Change size of icons by changing the font-size, change the space between the icons using margin-left-->
+		<center><span style="font-size: 48px;margin-left:150px;">
+        <!--Makes the icons appear in a horizontal line (rather than vertical)-->
+		<ul class="fa-ul">
+            <!--Change to be mailto:youremail@binghamton.edu-->
+            <!--Change color using the color tag under style-->
+            <!--Check out font awesome for other icons to use for contact links-->
+			<li class="fa-li"><a href="mailto:margaret.cech98@gmail.com"><i class="fas fa-envelope fa-2x" title="Email" style="color:#fff"></i></a></li>
+            <!--Replace with link to your GitHub profile-->
+			<li class="fa-li"><a href="https://github.com/mcech99"><i class="fab fa-github fa-2x"  title="GitHub" style="color:#fff"></i></a></li>
+            <!--Replace with link to your LinkedIn profile-->
+			<li class="fa-li"><a href="https://www.linkedin.com/in/margaret-cech-86882b128/"><i class="fab fa-linkedin fa-2x" title="LinkedIn" style="color:#fff"></i></a></li>
+		</ul></span>
+		</center>
+	</div>
+    
+
+
+</body>
+</html>
