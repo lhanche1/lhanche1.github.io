@@ -13,7 +13,8 @@ HOW TO USE:
 5. TEST YOUR WEBSITE -- click all links to make sure they work, resize the page to see how it looks in different shapes, just play around with it until you're sure everything works and looks the way you want it to
 
 index.html -- homepage, resume, transcript, contact (lines might be a little off if I make changes to the code and forget to update.. just look around nearby for the comments if it's not exact..)
-    Lines to look at:   *19 - background image/color
+    Lines to look at:   *7 - webpage title (what you see in the tabs)
+                        *19 - background image/color
                         *27 - how to use different backgrounds for each section
                         *48 - buttons to page sections
                         *56 - down arrow color and size
@@ -33,7 +34,8 @@ index.html -- homepage, resume, transcript, contact (lines might be a little off
                         *139 - change LinkedIn link
  
  projects.html -- page describing your projects, includes project titles, pictures, and descriptions
-      Lines to look at: *15 - background image/color 
+      Lines to look at: *7 - webpage title
+                        *15 - background image/color 
                         *67 - font used in project descriptions
                         *106 - page heading
                         *117 - project photo and description (src=photo_link alt=project description)
